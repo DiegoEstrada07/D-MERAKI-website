@@ -1,3 +1,10 @@
+:root{
+    --main-color:#91a79d;
+    --secondary-color:#f9f2dd;
+    --main-font:"Playfair Display", serif;
+    --secondary-font:"Montserrat", sans-serif;
+}
+
 *{
   margin: 0px;
   padding: 0px;
