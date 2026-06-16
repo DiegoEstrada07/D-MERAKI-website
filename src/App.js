@@ -91,12 +91,63 @@ function App() {
               src={promo}
               alt="Spa promotion"
             />
-
-            
           </div>
         </section>
       </main>
-      
+      <footer className="footer">
+        <div className="footer-content">
+          {/* Left Section */}
+          <div className="footer-column">
+            <h2>D'MERAKI</h2>
+            <p>
+              Un refugio de paz en la Ciudad de México, donde el alma y la
+              belleza se encuentran.
+            </p>
+          </div>
+
+          {/* Contact Section */}
+          <div className="footer-column">
+            <h4>CONTACTO</h4>
+
+            <div className="contact-item">
+              <span className="icon">📞</span>
+              <span>teléfono: +52 5555759241</span>
+            </div>
+
+            <div className="contact-item">
+              <span className="icon">💬</span>
+              <span>whatsapp: +52 5549044704</span>
+            </div>
+
+            <div className="contact-item">
+              <span className="icon">✉️</span>
+              <span>correo gmail: spademeraki@gmail.com</span>
+            </div>
+          </div>
+
+          {/* Location Section */}
+          <div className="footer-column location">
+            <h4>UBICACIÓN</h4>
+
+            <div className="contact-item">
+              <span className="icon">📍</span>
+              <span>
+                Calle Diagonal No. 35 interior 1 Col. Del Valle entre
+                calle Eugenia y Av. San Antonio
+              </span>
+            </div>
+
+            <div className="map-placeholder">
+              <span>🗺️</span>
+            </div>
+          </div>
+        </div>
+
+        <div className="footer-bottom">
+
+          
+        </div>
+      </footer>
     </div>
   );
 }
