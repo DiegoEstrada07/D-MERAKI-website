@@ -1,5 +1,6 @@
 import hero from './assets/image/IMG-20260311-WA00411781055892.webp';
-import test from './assets/image/IMG-20260311-WA00511781055892.webp'
+import test from './assets/image/IMG-20260311-WA00511781055892.webp';
+import promo from './assets/promos/d-meraki-kids.webp';
 import './App.css';
 
 function App() {
@@ -77,6 +78,21 @@ function App() {
               <div class="overlay"></div>
               <h3>Rejuvenecimiento Facial</h3>
             </article>
+          </div>
+        </section>
+        <section className="promo-section">
+          <div className="promo-header">
+            <span className="promo-tag">OFERTAS DE TEMPORADA</span>
+            <h2>Promociones con Alma</h2>
+          </div>
+
+          <div className="promo-card">
+            <img
+              src={promo}
+              alt="Spa promotion"
+            />
+
+            
           </div>
         </section>
       </main>
