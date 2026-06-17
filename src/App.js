@@ -1,6 +1,11 @@
 import hero from './assets/image/IMG-20260311-WA00411781055892.webp';
 import test from './assets/image/IMG-20260311-WA00511781055892.webp';
 import promo from './assets/promos/d-meraki-kids.webp';
+import ubication from './assets/svg/location-logo.svg';
+import phone from './assets/svg/phone-logo.svg';
+import whatsapp from './assets/svg/whatsapp-logo.svg';
+import mail from './assets/svg/gmail-logo.svg'
+
 import './App.css';
 
 function App() {
@@ -99,10 +104,6 @@ function App() {
           {/* Left Section */}
           <div className="footer-column">
             <h2>D'MERAKI</h2>
-            <p>
-              Un refugio de paz en la Ciudad de México, donde el alma y la
-              belleza se encuentran.
-            </p>
           </div>
 
           {/* Contact Section */}
@@ -110,17 +111,26 @@ function App() {
             <h4>CONTACTO</h4>
 
             <div className="contact-item">
-              <span className="icon">📞</span>
+              <img className='icon'
+                src={phone}
+                alt=""
+              />
               <span>teléfono: +52 5555759241</span>
             </div>
 
             <div className="contact-item">
-              <span className="icon">💬</span>
+              <img className='icon'
+                src={whatsapp}
+                alt=""
+              />
               <span>whatsapp: +52 5549044704</span>
             </div>
 
             <div className="contact-item">
-              <span className="icon">✉️</span>
+              <img className='icon'
+                src={mail}
+                alt=""
+              />
               <span>correo gmail: spademeraki@gmail.com</span>
             </div>
           </div>
@@ -130,15 +140,14 @@ function App() {
             <h4>UBICACIÓN</h4>
 
             <div className="contact-item">
-              <span className="icon">📍</span>
+              <img className='icon'
+                src={ubication}
+                alt=""
+              />
               <span>
                 Calle Diagonal No. 35 interior 1 Col. Del Valle entre
                 calle Eugenia y Av. San Antonio
               </span>
-            </div>
-
-            <div className="map-placeholder">
-              <span>🗺️</span>
             </div>
           </div>
         </div>
