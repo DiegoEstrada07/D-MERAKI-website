@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import Header from './pages/header';
 import Hero from './pages/hero';
+import Experiences from './pages/experiences';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     <Header/>
     <Hero/>
+    <Experiences/>
     <App />
   </React.StrictMode>
 );

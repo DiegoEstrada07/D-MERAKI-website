@@ -1,5 +1,3 @@
-import hero from './assets/image/IMG-20260311-WA00411781055892.webp';
-import test from './assets/image/IMG-20260311-WA00511781055892.webp';
 import promo from './assets/promos/d-meraki-kids.webp';
 import ubication from './assets/svg/location-logo.svg';
 import phone from './assets/svg/phone-logo.svg';
@@ -12,50 +10,11 @@ function App() {
   return (
     <div className="App">
       <main>
-        <section class="experiencias">
-          <div class="section-title">
-            <h2>Nuestras Experiencias</h2>
-            <span></span>
-          </div>
-          <div class="grid-experiencias">
-            <article class="card">
-              <img src={test} alt="Faciales"/>
-              <div class="overlay"></div>
-              <h3>Faciales</h3>
-            </article>
-            <article class="card">
-              <img src={test} alt="Masajes"/>
-              <div class="overlay"></div>
-              <h3>Masajes</h3>
-            </article>
-            <article class="card">
-              <img src={test} alt="Tratamientos Especiales"/>
-              <div class="overlay"></div>
-              <h3>Tratamientos Especiales</h3>
-            </article>
-            <article class="card">
-              <img src={test} alt="Depilación IPL"/>
-              <div class="overlay"></div>
-              <h3>Depilación IPL</h3>
-            </article>
-            <article class="card">
-              <img src={test} alt="Ozonoterapia"/>
-              <div class="overlay"></div>
-              <h3>Ozonoterapia</h3>
-            </article>
-            <article class="card">
-              <img src={test} alt="Rejuvenecimiento Facial"/>
-              <div class="overlay"></div>
-              <h3>Rejuvenecimiento Facial</h3>
-            </article>
-          </div>
-        </section>
         <section className="promo-section">
           <div className="promo-header">
             <span className="promo-tag">OFERTAS DE TEMPORADA</span>
             <h2>Promociones con Alma</h2>
           </div>
-
           <div className="promo-card">
             <img
               src={promo}
