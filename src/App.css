@@ -326,17 +326,11 @@
 
 .footer-column h4 {
   margin-bottom: 18px;
-  font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #64766c;
+  color: #4f6258;
 }
 
-.footer-column p {
-  line-height: 1.9;
-  font-size: 15px;
-  max-width: 260px;
-}
 
 .contact-item {
   display: flex;
@@ -348,23 +342,11 @@
 }
 
 .icon {
-  min-width: 20px;
+  width: 24px;
 }
 
 .location .contact-item {
   max-width: 480px;
-}
-
-.map-placeholder {
-  margin-top: 20px;
-  height: 140px;
-  border-radius: 20px;
-  background: #e7ebe7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #5d7065;
-  font-size: 32px;
 }
 
 .footer-bottom {
@@ -387,4 +369,214 @@
   font-size: 18px;
   color: #4f6258;
   cursor: pointer;
+}
+
+/* ==========================
+   TABLETS (1024px and below)
+   ========================== */
+@media (max-width: 1024px) {
+
+  .header {
+    padding: 0 30px;
+  }
+
+  .logo {
+    left: 30px;
+    font-size: 1.7rem;
+  }
+
+  .nav {
+    gap: 25px;
+  }
+
+  .hero {
+    padding: 40px;
+  }
+
+  .hero-content {
+    gap: 40px;
+  }
+
+  .hero-text h1 {
+    font-size: 56px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+
+  .hero-image img {
+    height: 550px;
+  }
+
+  .grid-experiencias {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .promo-card {
+    width: 70%;
+  }
+
+  .footer-content {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+
+/* ==========================
+   MOBILE (768px and below)
+   ========================== */
+@media (max-width: 768px) {
+
+  /* Header */
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .logo {
+    position: static;
+  }
+
+  .nav {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 30px 20px;
+  }
+
+  .hero-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .hero-text p {
+    margin: 0 auto 30px;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    height: 450px;
+  }
+
+  /* Experiences */
+  .section-title h2 {
+    font-size: 2.3rem;
+  }
+
+  .grid-experiencias {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    height: 280px;
+  }
+
+  /* Promo */
+  .promo-section {
+    padding: 30px 20px;
+  }
+
+  .promo-header h2 {
+    font-size: 36px;
+  }
+
+  .promo-card {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .contact-item {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
+
+
+/* ==========================
+   SMALL PHONES (480px and below)
+   ========================== */
+@media (max-width: 480px) {
+
+  .hero-text h1 {
+    font-size: 36px;
+    line-height: 1.1;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 20px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-image img {
+    height: 350px;
+    border-radius: 25px;
+  }
+
+  .section-title h2 {
+    font-size: 2rem;
+  }
+
+  .promo-header h2 {
+    font-size: 28px;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 30px 20px 15px;
+  }
+
+  .footer-column h2 {
+    font-size: 24px;
+  }
 }
