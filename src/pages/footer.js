@@ -1,9 +1,9 @@
-import ubication from './assets/svg/location-logo.svg';
-import phone from './assets/svg/phone-logo.svg';
-import whatsapp from './assets/svg/whatsapp-logo.svg';
-import mail from './assets/svg/gmail-logo.svg'
+import ubication from '../assets/svg/location-logo.svg';
+import phone from '../assets/svg/phone-logo.svg';
+import whatsapp from '../assets/svg/whatsapp-logo.svg';
+import mail from '../assets/svg/gmail-logo.svg'
 
-import './App.css';
+import '../App.css';
 
 function Footer(){
     return(
@@ -65,3 +65,5 @@ function Footer(){
         </div>
     )
 }
+
+export default Footer;
