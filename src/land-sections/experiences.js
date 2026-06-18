@@ -42,6 +42,11 @@ function Experiences(){
                   <div class="overlay"></div>
                   <h3>Rejuvenecimiento Facial</h3>
                 </article>
+                <article class="card">
+                  <img src={test} alt="Belleza"/>
+                  <div class="overlay"></div>
+                  <h3>Belleza</h3>
+                </article>
               </div>
             </section>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
-import Hero from './pages/hero';
-import Experiences from './pages/experiences';
-import Promo from './pages/promo';
+import Hero from './land-sections/hero';
+import Experiences from './land-sections/experiences';
+import Promo from './land-sections/promo';
 import './App.css';
 
 function App() {

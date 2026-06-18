@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import Header from './pages/header';
-import Footer from './pages/footer';
+import Header from './land-sections/header';
+import Footer from './land-sections/footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
