@@ -13,7 +13,6 @@ function Header(){
                     <a href="" class="active">Home</a>
                     <a href="">Services</a>
                     <a href="">Promotions</a>
-                    <a href="">Contact</a>
                 </nav>
             </header>
         </div>

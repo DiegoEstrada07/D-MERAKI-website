@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
+import Promotions from './pages/promotions';
 import Header from './land-sections/header';
 import Footer from './land-sections/footer';
 import reportWebVitals from './reportWebVitals';
@@ -9,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
-    <App />
+    <App/>
     <Footer/>
   </React.StrictMode>
 );

@@ -6,7 +6,7 @@ import '../App.css';
 function Promo(){
     return(
         <div>
-            <section className="promo-section">
+          <section className="promo-section">
           <div className="promo-header">
             <span className="promo-tag">OFERTAS DE TEMPORADA</span>
             <h2>Promociones con Alma</h2>
@@ -17,7 +17,7 @@ function Promo(){
               alt="Spa promotion"
             />
           </div>
-        </section>
+          </section>
         </div>
     )
 }
